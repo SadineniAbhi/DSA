@@ -1,0 +1,5 @@
+arr[i][i] access diagnol element arr[i][-(i+1)] to access the diagnal elements of right diagnal.
+
+#####
+
+
