@@ -8,3 +8,5 @@ def insertion_sort(arr):
 
 res = insertion_sort([22,33,54,3,4])
 print(res)
+
+

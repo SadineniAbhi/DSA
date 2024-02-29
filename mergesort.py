@@ -31,4 +31,9 @@ def merge(arr, low, mid, high):
 # Example usage
 arr = [3, 1, 9, 2, 1, 222]
 mergeSort(arr, 0, len(arr) - 1)
-print(arr)
+
+
+
+
+
+

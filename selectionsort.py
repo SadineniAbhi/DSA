@@ -9,3 +9,4 @@ def selectionsort(arr):
 
 res = selectionsort([100,11,78,1,23])
 print(res)
+
