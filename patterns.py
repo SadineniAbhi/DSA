@@ -3,8 +3,13 @@ def filledrect(n,m):
 		for j in range(m):
 			print("*",end = "")
 		print()
-filledrect(5,5)
+def palpat(n):
+	for i in range(n):
+		for j in range(i):
+			print(chr((ord('a'))+i),end="")
+	print()
 
+palpat(4)
 
 
 

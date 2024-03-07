@@ -1,5 +1,4 @@
-arr[i][i] access diagnol element arr[i][-(i+1)] to access the diagnal elements of right diagnal.
-
+QUESTIONS TO PRACTICE
 check bit
 
 fibnochi for large
@@ -10,7 +9,7 @@ pyramid pattern
 
 palindram drome pattern 
 
-floyd patter 
+floyd patter 2
 
 Given a string, check if it contains all the letters of the alphabet.
 
@@ -22,9 +21,19 @@ strong password check
 
 charecters occuring together 
 
+check datetime module
+def timeConversion(s):
+    stime = datetime.strptime(s, "%I:%M:%S%p")
+    mtime = stime.strftime("%H:%M:%S")
+    return mtime
+
+controll the decimal digits
 
 
+IMPORTANT STATEMENTS:
+arr[i][i] access diagnol element arr[i][-(i+1)] to access the diagnal elements of right diagnal.
 
+FOR AN ANAGRAM TO BE A PALINDROME IT ALL THE COUNTS OF LETTERS SHOULD BE EVEN AND ONE AND ONLY ONE LETTER CAN HAVE ODD COUNT 
 
 
 
