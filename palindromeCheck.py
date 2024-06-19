@@ -6,4 +6,15 @@ def palindromeCheck(i,s,n):
         return False
     return palindromeCheck(i+1,s,len(s))
 
-print(palindromeCheck(0,"madam",len("madam")))
+
+def isPalindrome(s: str) -> bool:
+    i = 0 
+    j = len(s)-1 
+    while i <= j:
+        if s[i] != s[j]:
+            return 'false'
+        i+=1
+        j-=1
+    return 'true'
+
+
