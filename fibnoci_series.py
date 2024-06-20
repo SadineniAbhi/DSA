@@ -31,4 +31,4 @@ def fibRec(n):
 
     return fibRec(n-1) + fibRec(n-2)
 
-print(fibRec(10))   
+print(fibRec(0))   
