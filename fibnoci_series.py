@@ -27,7 +27,7 @@ def fibBru(n):
 def fibRec(n):
 
     if n<=1:
-        return n
+        return ncle
 
     return fibRec(n-1) + fibRec(n-2)
 
