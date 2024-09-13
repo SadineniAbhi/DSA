@@ -37,3 +37,18 @@ mergeSort(arr, 0, len(arr) - 1)
 
 
 
+        minele = 5001
+        l = 0
+        h = len(arr)-1
+
+        while l<= h:
+            mid = (l+h)//2
+            minele = min(minele,arr[mid])
+
+            if arr[mid] >= arr[l]:
+                minele = min(minele,arr[l])
+                l = mid + 1
+            else:
+                minele = min(minele,arr[mid])
+                h = mid - 1
+        return minele
